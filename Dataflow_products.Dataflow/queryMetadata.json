@@ -1,0 +1,37 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Dataflow_products",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "products csv": {
+      "queryId": "98583d99-4002-4d5b-b677-7b1b38342c8e",
+      "queryName": "products csv",
+      "loadEnabled": false
+    },
+    "dim_category": {
+      "queryId": "bcdf3bbd-3c36-4b32-b3b3-6efa3e414460",
+      "queryName": "dim_category"
+    },
+    "TempTable": {
+      "queryId": "a3f5be8a-03f5-4dac-bfd4-ee0064e3a7c1",
+      "queryName": "TempTable"
+    },
+    "products csv_DataDestination": {
+      "queryId": "fb990f2d-2e00-4b93-8c20-3adf89db44ad",
+      "queryName": "products csv_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"8cdcec38-4a38-44dd-9b7a-0045d8b0c37f\",\"DatasourceId\":\"5c1a1f8b-40f2-4968-a736-ddb296d915bd\"}"
+    }
+  ]
+}

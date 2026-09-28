@@ -1,0 +1,29 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Dataflow_customers",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "customers csv": {
+      "queryId": "78e83dd5-4157-429e-bf6b-2d8a489824ad",
+      "queryName": "customers csv",
+      "loadEnabled": false
+    },
+    "customers csv_DataDestination": {
+      "queryId": "2e4d8110-1935-4b9d-aa70-749f1b2cff68",
+      "queryName": "customers csv_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"8cdcec38-4a38-44dd-9b7a-0045d8b0c37f\",\"DatasourceId\":\"5c1a1f8b-40f2-4968-a736-ddb296d915bd\"}"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {
+    "allowModernEvaluationEngine": true
+  },
+  "name": "Dataflow_transactions_2022",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "transactions_2022 csv": {
+      "queryId": "8c0f6aa6-151b-41d5-a27f-eb6324885409",
+      "queryName": "transactions_2022 csv",
+      "loadEnabled": false
+    },
+    "transactions_2023 csv": {
+      "queryId": "e74d0ded-4258-4968-804f-4b850e2d2e6e",
+      "queryName": "transactions_2023 csv"
+    },
+    "transactions_2024_2025 csv": {
+      "queryId": "51354919-eca7-4f80-abdf-9acbe1d669e3",
+      "queryName": "transactions_2024_2025 csv"
+    },
+    "Transactions": {
+      "queryId": "7f9c0f28-6ba6-4138-93f6-001e36e2ae5d",
+      "queryName": "Transactions"
+    },
+    "transactions_2022 csv_DataDestination": {
+      "queryId": "e2081442-9341-4f42-a5e2-9f9583e21512",
+      "queryName": "transactions_2022 csv_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"8cdcec38-4a38-44dd-9b7a-0045d8b0c37f\",\"DatasourceId\":\"5c1a1f8b-40f2-4968-a736-ddb296d915bd\"}"
+    }
+  ]
+}
